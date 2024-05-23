@@ -5,6 +5,7 @@ module.exports = function (app) {
   app.use(
     createProxyMiddleware("*", {
       target: SERVER_URL.TARGET_URL(),
+      // target: "14.42.124.96:3000",
       changeOrigin: true,
     })
   );

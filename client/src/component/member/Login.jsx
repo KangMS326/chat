@@ -10,7 +10,7 @@ import { SERVER_URL } from '../../util/url';
 import '../../css/member/login.css';
 import * as jwt_decode from 'jwt-decode';
 import io from 'socket.io-client';
-const socket = io('http://localhost:3001');
+const socket = io('http://localhost:3000');
 
 axios.defaults.withCredentials = true;
 const CLIENT_ID = '113858365495-jl2hl92heunsnv028li58n6aum139hcr.apps.googleusercontent.com';
